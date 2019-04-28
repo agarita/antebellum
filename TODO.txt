@@ -1,0 +1,31 @@
+Etapa 0
++ Arreglar la gramatica
++ Completar la gramatica
++ Simplificar las fracciones
++ Pruebas
++ Definición del lenguaje
+
+
+Etapa 1
++Analizador lexico 
+++(biobioteca)
+
++Pretty print
+++HTML generator
+++Tabla de estadistica
+
++Pruebas lexicas
+
++Indice de pruebas
++Mantenimiento a la docu de primera etapa
++ la tabla de familias y colores.
++ La definición del autómata. Puede ser por partes para que les sea sensato el dibujarlo. Basta con la definicón gráfica pero si lo desea puede adjuntar la matemática.
++ Listado de errores del compilador: Los errores deben numerarse, clasificarse y tener un mensaje significativo.
+
+Extras:
++ Revisar las ligas de los scriboX
++ Arreglar como se retornan las cosas en legoXXXX
+
++ Comentar bien el codigo
++Automatizar las pruebas (las de C++)
++Hacer que scribofractio utilice fractio2catena

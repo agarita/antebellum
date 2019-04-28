@@ -1,0 +1,6 @@
+nomen EjemploDelModulo.
+commutabilis
+    numerus A est 11.
+firmamentum
+    A %= 4.
+    ScriboNumerus(A).

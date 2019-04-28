@@ -1,0 +1,92 @@
+/*
+ * follow.txt
+ *
+ * Formato:
+ * 	no-terminal terminal [ ...terminal]
+ *
+ * 2019/04/09 20:20:38
+ *
+ * Archivo generado por GikGram 2.0
+ *
+ * Copyright © Olminsky 2011 Derechos reservados
+ * Reproducción sin fines de lucro permitida
+ */
+
+<S>  EOF  
+<Titulo> perpetuus firmamentum 
+<SecConst> firmamentum 
+<DeclConsts> furibundus firmamentum 
+<Constante> ID furibundus firmamentum 
+<InicioConst> veridicus falsidicus literalEntero literalCaracter literalString literalFraccion literalFecha { <- ID 
+<Valor> . , } -> 
+<Literal> . , } -> 
+<LiteralBool> . , } -> 
+<Arreglo> . , } -> 
+<Registro> . , } -> 
+<Elementos> } -> 
+<MasElementos> } -> 
+<SecTipos> firmamentum 
+<DeclTipos> commutabilis firmamentum 
+<InicioTipo> . 
+<Tipo> ID . 
+<Atomico> ID . 
+<TipoRegistro> . ID 
+<CierreRegistro> . ID 
+<Espacio> dixi 
+<CierreEspacio> numerus imago catena dualis liber fractio diem dixi 
+<MasEspacio> dixi 
+<InicioArreglo> autem 
+<Dimension> autem 
+<CierreDimension> [ autem 
+<MasDimension> autem 
+<TipoArreglo> . ID 
+<SecVars> firmamentum 
+<DeclVars> exemplar initum firmamentum 
+<Variable> . 
+<CierreVariable> . 
+<MasVariables> . 
+<SecProts> firmamentum 
+<DeclPrototipos> corpus firmamentum 
+<Prototipo> . 
+<EncabProc> commutabilis initum . 
+<EncabFunc> commutabilis initum . 
+<CierreEncabFunc> commutabilis initum . 
+<InicioParams> . : 
+<Parametros> ) . : 
+<DefParam> , . ) 
+<Ign> ID numerus imago catena dualis liber fractio diem coniugo ordo 
+<MasParams> ) 
+<TipoRet> . 
+<SecRutinas> firmamentum 
+<DeclRutinas> firmamentum 
+<Rutina> . 
+<Commutabilis> initum 
+<Cuerpo> mentiri certus usque . dixi finis tempus in aeger itero panis sigla 
+<Instrucciones> finis . 
+<Instrucción> tempus in aeger itero panis sigla usque . dixi finis 
+<While> tempus in aeger itero panis sigla usque . dixi finis 
+<InicioWhile> opus 
+<CierreInstr> usque . dixi tempus in aeger itero panis sigla finis 
+<If> tempus in aeger itero panis sigla usque . dixi finis 
+<ThenElse> tempus in aeger itero panis sigla usque . dixi finis 
+<Else> tempus in aeger itero panis sigla usque . dixi finis 
+<Then> tempus in aeger itero panis sigla usque . dixi finis 
+<Switch> tempus in aeger itero panis sigla usque . dixi finis 
+<InicioSwitch> casus detrimentum finis 
+<Casos> finis 
+<Caso> . 
+<Default> finis 
+<CasosDefault> finis 
+<CasoDefault> finis 
+<RepeatUntil> tempus in aeger itero panis sigla usque . dixi finis 
+<CierreRepeatU> tempus in aeger itero panis sigla usque . dixi finis 
+<For> tempus in aeger itero panis sigla usque . dixi finis 
+<ForAux> tempus in aeger itero panis sigla usque . dixi finis 
+<ForAux2> tempus in aeger itero panis sigla usque . dixi finis 
+<ForAux3> tempus in aeger itero panis sigla usque . dixi finis 
+<ForAux4> tempus in aeger itero panis sigla usque . dixi finis 
+<With> tempus in aeger itero panis sigla usque . dixi finis 
+<WithAux> tempus in aeger itero panis sigla usque . dixi finis 
+<WithAux2> tempus in aeger itero panis sigla usque . dixi finis 
+<Expresion> certus mentiri initum tempus in aeger itero panis sigla . auctum gradus opus usque dixi finis 
+<Entrada> firmamentum  EOF  

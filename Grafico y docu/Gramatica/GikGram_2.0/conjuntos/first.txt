@@ -1,0 +1,92 @@
+/*
+ * first.txt
+ *
+ * Formato:
+ * 	no-terminal terminal [ ...terminal]
+ *
+ * 2019/04/09 20:20:38
+ *
+ * Archivo generado por GikGram 2.0
+ *
+ * Copyright © Olminsky 2011 Derechos reservados
+ * Reproducción sin fines de lucro permitida
+ */
+
+<S> nomen 
+<Titulo> nomen 
+<SecConst> perpetuus 
+<DeclConsts> ID 
+<Constante> ID 
+<InicioConst> ID 
+<Valor> veridicus falsidicus literalEntero literalCaracter literalString literalFraccion literalFecha { <- ID 
+<Literal> veridicus falsidicus literalEntero literalCaracter literalString literalFraccion literalFecha 
+<LiteralBool> veridicus falsidicus 
+<Arreglo> { 
+<Registro> <- 
+<Elementos> veridicus falsidicus literalEntero literalCaracter literalString literalFraccion literalFecha { <- ID 
+<MasElementos> , 
+<SecTipos> furibundus 
+<DeclTipos> ID 
+<InicioTipo> ID 
+<Tipo> ID numerus imago catena dualis liber fractio diem coniugo ordo 
+<Atomico> numerus imago catena dualis liber fractio diem 
+<TipoRegistro> coniugo 
+<CierreRegistro> dixi 
+<Espacio> numerus imago catena dualis liber fractio diem 
+<CierreEspacio> ID 
+<MasEspacio> numerus imago catena dualis liber fractio diem 
+<InicioArreglo> ordo 
+<Dimension> [ 
+<CierreDimension> literalEntero 
+<MasDimension> [ 
+<TipoArreglo> numerus imago catena dualis liber fractio diem coniugo 
+<SecVars> commutabilis 
+<DeclVars> ID numerus imago catena dualis liber fractio diem coniugo ordo 
+<Variable> ID numerus imago catena dualis liber fractio diem coniugo ordo 
+<CierreVariable> est 
+<MasVariables> , 
+<SecProts> exemplar 
+<DeclPrototipos> directus efficio 
+<Prototipo> directus efficio 
+<EncabProc> directus 
+<EncabFunc> efficio 
+<CierreEncabFunc> : 
+<InicioParams> ID 
+<Parametros> ign ID numerus imago catena dualis liber fractio diem coniugo ordo 
+<DefParam> ign ID numerus imago catena dualis liber fractio diem coniugo ordo 
+<Ign> ign 
+<MasParams> , . 
+<TipoRet> numerus imago catena dualis liber fractio diem coniugo ordo 
+<SecRutinas> corpus 
+<DeclRutinas> directus efficio 
+<Rutina> directus efficio 
+<Commutabilis> commutabilis 
+<Cuerpo> initum 
+<Instrucciones> tempus in aeger itero panis sigla 
+<Instrucción> tempus in aeger itero panis sigla 
+<While> tempus 
+<InicioWhile> tempus 
+<CierreInstr> tempus in aeger itero panis sigla initum 
+<If> in 
+<ThenElse> certus mentiri 
+<Else> mentiri 
+<Then> certus 
+<Switch> aeger 
+<InicioSwitch> aeger 
+<Casos> casus detrimentum 
+<Caso> casus 
+<Default> detrimentum 
+<CasosDefault> . 
+<CasoDefault> casus 
+<RepeatUntil> itero 
+<CierreRepeatU> usque 
+<For> panis 
+<ForAux> := 
+<ForAux2> auctum 
+<ForAux3> gradus 
+<ForAux4> opus 
+<With> sigla 
+<WithAux> opus 
+<WithAux2> dixi 
+<Expresion> 
+<Entrada> firmamentum 

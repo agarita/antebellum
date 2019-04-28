@@ -1,0 +1,150 @@
+/*
+ * predict.txt
+ *
+ * Formato:
+ * 	no-terminal terminal [ ...terminal]
+ *
+ * 2019/04/09 20:20:38
+ *
+ * Archivo generado por GikGram 2.0
+ *
+ * Copyright © Olminsky 2011 Derechos reservados
+ * Reproducción sin fines de lucro permitida
+ */
+
+<S> nomen 
+<Titulo> nomen 
+<SecConst> perpetuus 
+<SecConst> firmamentum 
+<DeclConsts> ID 
+<DeclConsts> furibundus firmamentum 
+<Constante> ID 
+<InicioConst> ID 
+<Valor> veridicus falsidicus literalEntero literalCaracter literalString literalFraccion literalFecha 
+<Valor> { 
+<Valor> <- 
+<Valor> ID 
+<Literal> veridicus falsidicus 
+<Literal> literalEntero 
+<Literal> literalCaracter 
+<Literal> literalString 
+<Literal> literalFraccion 
+<Literal> literalFecha 
+<LiteralBool> veridicus 
+<LiteralBool> falsidicus 
+<Arreglo> { 
+<Registro> <- 
+<Elementos> veridicus falsidicus literalEntero literalCaracter literalString literalFraccion literalFecha { <- ID 
+<Elementos> } -> 
+<MasElementos> , 
+<MasElementos> } -> 
+<SecTipos> furibundus 
+<SecTipos> firmamentum 
+<DeclTipos> ID 
+<DeclTipos> commutabilis firmamentum 
+<InicioTipo> ID 
+<Tipo> ID 
+<Tipo> numerus imago catena dualis liber fractio diem 
+<Tipo> coniugo 
+<Tipo> ordo 
+<Atomico> numerus 
+<Atomico> imago 
+<Atomico> catena 
+<Atomico> dualis 
+<Atomico> liber 
+<Atomico> fractio 
+<Atomico> diem 
+<TipoRegistro> coniugo 
+<CierreRegistro> dixi 
+<Espacio> numerus imago catena dualis liber fractio diem 
+<CierreEspacio> ID 
+<MasEspacio> numerus imago catena dualis liber fractio diem 
+<MasEspacio> dixi 
+<InicioArreglo> ordo 
+<Dimension> [ 
+<CierreDimension> literalEntero 
+<MasDimension> [ 
+<MasDimension> autem 
+<TipoArreglo> numerus imago catena dualis liber fractio diem 
+<TipoArreglo> coniugo 
+<SecVars> commutabilis 
+<SecVars> firmamentum 
+<DeclVars> ID numerus imago catena dualis liber fractio diem coniugo ordo 
+<DeclVars> exemplar initum firmamentum 
+<Variable> ID numerus imago catena dualis liber fractio diem coniugo ordo 
+<CierreVariable> est 
+<MasVariables> , 
+<MasVariables> . 
+<SecProts> exemplar 
+<SecProts> firmamentum 
+<DeclPrototipos> directus efficio 
+<DeclPrototipos> corpus firmamentum 
+<Prototipo> directus 
+<Prototipo> efficio 
+<EncabProc> directus 
+<EncabFunc> efficio 
+<CierreEncabFunc> : 
+<InicioParams> ID 
+<InicioParams> . : 
+<Parametros> ign ID numerus imago catena dualis liber fractio diem coniugo ordo 
+<Parametros> ) . : 
+<DefParam> ign ID numerus imago catena dualis liber fractio diem coniugo ordo 
+<Ign> ign 
+<Ign> ID numerus imago catena dualis liber fractio diem coniugo ordo 
+<MasParams> , 
+<MasParams> . 
+<MasParams> ) 
+<TipoRet> numerus imago catena dualis liber fractio diem 
+<TipoRet> coniugo 
+<TipoRet> ordo 
+<SecRutinas> corpus 
+<SecRutinas> firmamentum 
+<DeclRutinas> directus efficio 
+<DeclRutinas> firmamentum 
+<Rutina> directus 
+<Rutina> efficio 
+<Commutabilis> commutabilis 
+<Commutabilis> initum 
+<Cuerpo> initum 
+<Instrucciones> tempus in aeger itero panis sigla 
+<Instrucciones> finis . 
+<Instrucción> tempus 
+<Instrucción> in 
+<Instrucción> aeger 
+<Instrucción> itero 
+<Instrucción> panis 
+<Instrucción> sigla 
+<While> tempus 
+<InicioWhile> tempus 
+<CierreInstr> tempus in aeger itero panis sigla 
+<CierreInstr> initum 
+<If> in 
+<ThenElse> certus 
+<ThenElse> mentiri 
+<ThenElse> tempus in aeger itero panis sigla usque . dixi finis 
+<Else> mentiri 
+<Else> tempus in aeger itero panis sigla usque . dixi finis 
+<Then> certus 
+<Then> tempus in aeger itero panis sigla usque . dixi finis 
+<Switch> aeger 
+<InicioSwitch> aeger 
+<Casos> casus 
+<Casos> detrimentum 
+<Casos> finis 
+<Caso> casus 
+<Default> detrimentum 
+<CasosDefault> . 
+<CasoDefault> casus 
+<CasoDefault> finis 
+<RepeatUntil> itero 
+<CierreRepeatU> usque 
+<For> panis 
+<ForAux> := 
+<ForAux2> auctum 
+<ForAux3> gradus 
+<ForAux4> opus 
+<With> sigla 
+<WithAux> opus 
+<WithAux2> dixi 
+<Expresion> certus mentiri initum tempus in aeger itero panis sigla . auctum gradus opus usque dixi finis 
+<Entrada> firmamentum 
