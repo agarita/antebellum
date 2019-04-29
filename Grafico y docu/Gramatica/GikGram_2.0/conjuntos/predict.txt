@@ -4,7 +4,7 @@
  * Formato:
  * 	no-terminal terminal [ ...terminal]
  *
- * 2019/04/09 20:20:38
+ * 2019/04/28 22:34:32
  *
  * Archivo generado por GikGram 2.0
  *
@@ -106,28 +106,38 @@
 <Commutabilis> commutabilis 
 <Commutabilis> initum 
 <Cuerpo> initum 
-<Instrucciones> tempus in aeger itero panis sigla 
-<Instrucciones> finis . 
+<Instrucciones> tempus in aeger itero panis sigla neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID . 
+<Instrucciones> finis 
 <Instrucción> tempus 
 <Instrucción> in 
 <Instrucción> aeger 
 <Instrucción> itero 
 <Instrucción> panis 
 <Instrucción> sigla 
+<Instrucción> neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID . 
+<Instr1Linea> neco 
+<Instr1Linea> pergo 
+<Instr1Linea> claudeo 
+<Instr1Linea> reditus 
+<Instr1Linea> ( literalEntero incrementum decrementum literalFraccion || |^ 
+<Instr1Linea> . 
+<Instr1Linea> ID 
+<CoheOExpr> impono 
+<CoheOExpr> . 
 <While> tempus 
-<InicioWhile> tempus 
-<CierreInstr> tempus in aeger itero panis sigla 
-<CierreInstr> initum 
+<CierreWhile> opus 
+<Codigo> neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID . 
+<Codigo> initum 
 <If> in 
 <ThenElse> certus 
 <ThenElse> mentiri 
-<ThenElse> tempus in aeger itero panis sigla usque . dixi finis 
+<ThenElse> . 
 <Else> mentiri 
-<Else> tempus in aeger itero panis sigla usque . dixi finis 
+<Else> . 
 <Then> certus 
-<Then> tempus in aeger itero panis sigla usque . dixi finis 
+<Then> . 
 <Switch> aeger 
-<InicioSwitch> aeger 
+<CierreSwitch> initum 
 <Casos> casus 
 <Casos> detrimentum 
 <Casos> finis 
@@ -146,5 +156,57 @@
 <With> sigla 
 <WithAux> opus 
 <WithAux2> dixi 
-<Expresion> certus mentiri initum tempus in aeger itero panis sigla . auctum gradus opus usque dixi finis 
+<Break> neco 
+<Continues> pergo 
+<Halt> claudeo 
+<Return> reditus 
+<Cohercion> impono 
+<Nula> . 
+<Asignacion> ID 
+<Asignador> := 
+<Asignador> += 
+<Asignador> -= 
+<Asignador> *= 
+<Asignador> /= 
+<Asignador> %= 
+<Asignador> |+= 
+<Asignador> |-= 
+<Asignador> |*= 
+<Asignador> |/= 
+<Asignador> et= 
+<Asignador> aut= 
+<Asignador> xaut= 
+<Expresion> ( literalEntero incrementum decrementum 
+<Expresion> ( literalFraccion || |^ 
+<Aritmetica> ( literalEntero incrementum decrementum 
+<Nivel2> ( literalEntero 
+<Nivel2> ( literalEntero incrementum decrementum 
+<Nivel1> ( literalEntero 
+<Nivel1> incrementum decrementum ( literalEntero 
+<Nivel0> incrementum decrementum 
+<Nivel0> ( literalEntero 
+<ValorEntero> ( 
+<ValorEntero> literalEntero 
+<OpBinaria2> + 
+<OpBinaria2> - 
+<OpBinaria1> * 
+<OpBinaria1> / 
+<OpBinaria1> % 
+<OpUnaria> incrementum 
+<OpUnaria> decrementum 
+<AritmeticaFrac> ( literalFraccion || |^ 
+<Nivel2Frac> ( literalFraccion 
+<Nivel2Frac> ( literalFraccion || |^ 
+<Nivel1Frac> ( literalFraccion 
+<Nivel1Frac> || |^ ( literalFraccion 
+<Nivel0Frac> || |^ 
+<Nivel0Frac> ( literalFraccion 
+<ValorFrac> ( 
+<ValorFrac> literalFraccion 
+<OpBinaria2Frac> |+ 
+<OpBinaria2Frac> |- 
+<OpBinaria1Frac> |* 
+<OpBinaria1Frac> |/ 
+<OpUnariaFrac> || 
+<OpUnariaFrac> |^ 
 <Entrada> firmamentum 

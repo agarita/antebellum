@@ -4,7 +4,7 @@
  * Formato:
  * 	no-terminal terminal [ ...terminal]
  *
- * 2019/04/09 20:20:38
+ * 2019/04/28 22:34:32
  *
  * Archivo generado por GikGram 2.0
  *
@@ -61,32 +61,58 @@
 <DeclRutinas> firmamentum 
 <Rutina> . 
 <Commutabilis> initum 
-<Cuerpo> mentiri certus usque . dixi finis tempus in aeger itero panis sigla 
-<Instrucciones> finis . 
-<Instrucción> tempus in aeger itero panis sigla usque . dixi finis 
-<While> tempus in aeger itero panis sigla usque . dixi finis 
-<InicioWhile> opus 
-<CierreInstr> usque . dixi tempus in aeger itero panis sigla finis 
-<If> tempus in aeger itero panis sigla usque . dixi finis 
-<ThenElse> tempus in aeger itero panis sigla usque . dixi finis 
-<Else> tempus in aeger itero panis sigla usque . dixi finis 
-<Then> tempus in aeger itero panis sigla usque . dixi finis 
-<Switch> tempus in aeger itero panis sigla usque . dixi finis 
-<InicioSwitch> casus detrimentum finis 
+<Cuerpo> firmamentum  EOF  . mentiri certus usque dixi 
+<Instrucciones> finis 
+<Instrucción> . 
+<Instr1Linea> . 
+<CoheOExpr> . 
+<While> . 
+<CierreWhile> . 
+<Codigo> mentiri certus . usque dixi 
+<If> . 
+<ThenElse> . 
+<Else> . 
+<Then> . 
+<Switch> . 
+<CierreSwitch> . 
 <Casos> finis 
 <Caso> . 
 <Default> finis 
 <CasosDefault> finis 
 <CasoDefault> finis 
-<RepeatUntil> tempus in aeger itero panis sigla usque . dixi finis 
-<CierreRepeatU> tempus in aeger itero panis sigla usque . dixi finis 
-<For> tempus in aeger itero panis sigla usque . dixi finis 
-<ForAux> tempus in aeger itero panis sigla usque . dixi finis 
-<ForAux2> tempus in aeger itero panis sigla usque . dixi finis 
-<ForAux3> tempus in aeger itero panis sigla usque . dixi finis 
-<ForAux4> tempus in aeger itero panis sigla usque . dixi finis 
-<With> tempus in aeger itero panis sigla usque . dixi finis 
-<WithAux> tempus in aeger itero panis sigla usque . dixi finis 
-<WithAux2> tempus in aeger itero panis sigla usque . dixi finis 
-<Expresion> certus mentiri initum tempus in aeger itero panis sigla . auctum gradus opus usque dixi finis 
+<RepeatUntil> . 
+<CierreRepeatU> . 
+<For> . 
+<ForAux> . 
+<ForAux2> . 
+<ForAux3> . 
+<ForAux4> . 
+<With> . 
+<WithAux> . 
+<WithAux2> . 
+<Break> . 
+<Continues> . 
+<Halt> . 
+<Return> . 
+<Cohercion> . 
+<Nula> . 
+<Asignacion> . 
+<Asignador> ( literalEntero incrementum decrementum literalFraccion || |^ 
+<Expresion> impono opus certus mentiri initum neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID auctum gradus . 
+<Aritmetica> ) impono opus certus mentiri initum neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID auctum gradus . 
+<Nivel2> ) impono opus certus mentiri initum neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID auctum gradus . 
+<Nivel1> ) impono opus certus mentiri initum neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID auctum gradus . 
+<Nivel0> ) impono opus certus mentiri initum neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID auctum gradus . 
+<ValorEntero> + - * / % ) impono opus certus mentiri initum neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID auctum gradus . 
+<OpBinaria2> ( literalEntero incrementum decrementum 
+<OpBinaria1> ( literalEntero incrementum decrementum 
+<OpUnaria> incrementum decrementum ( literalEntero 
+<AritmeticaFrac> ) impono opus certus mentiri initum neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID auctum gradus . 
+<Nivel2Frac> ) impono opus certus mentiri initum neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID auctum gradus . 
+<Nivel1Frac> ) impono opus certus mentiri initum neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID auctum gradus . 
+<Nivel0Frac> ) impono opus certus mentiri initum neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID auctum gradus . 
+<ValorFrac> |+ |- |* |/ ) impono opus certus mentiri initum neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID auctum gradus . 
+<OpBinaria2Frac> ( literalFraccion || |^ 
+<OpBinaria1Frac> ( literalFraccion || |^ 
+<OpUnariaFrac> || |^ ( literalFraccion 
 <Entrada> firmamentum  EOF  

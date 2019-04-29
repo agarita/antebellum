@@ -4,7 +4,7 @@
  * Formato:
  * 	no-terminal terminal [ ...terminal]
  *
- * 2019/04/09 20:20:38
+ * 2019/04/28 22:34:32
  *
  * Archivo generado por GikGram 2.0
  *
@@ -62,17 +62,19 @@
 <Rutina> directus efficio 
 <Commutabilis> commutabilis 
 <Cuerpo> initum 
-<Instrucciones> tempus in aeger itero panis sigla 
-<Instrucción> tempus in aeger itero panis sigla 
+<Instrucciones> tempus in aeger itero panis sigla neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID 
+<Instrucción> tempus in aeger itero panis sigla neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID 
+<Instr1Linea> neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID 
+<CoheOExpr> impono 
 <While> tempus 
-<InicioWhile> tempus 
-<CierreInstr> tempus in aeger itero panis sigla initum 
+<CierreWhile> opus 
+<Codigo> neco pergo claudeo reditus ( literalEntero incrementum decrementum literalFraccion || |^ ID initum 
 <If> in 
 <ThenElse> certus mentiri 
 <Else> mentiri 
 <Then> certus 
 <Switch> aeger 
-<InicioSwitch> aeger 
+<CierreSwitch> initum 
 <Casos> casus detrimentum 
 <Caso> casus 
 <Default> detrimentum 
@@ -88,5 +90,29 @@
 <With> sigla 
 <WithAux> opus 
 <WithAux2> dixi 
-<Expresion> 
+<Break> neco 
+<Continues> pergo 
+<Halt> claudeo 
+<Return> reditus 
+<Cohercion> impono 
+<Nula> 
+<Asignacion> ID 
+<Asignador> := += -= *= /= %= |+= |-= |*= |/= et= aut= xaut= 
+<Expresion> ( literalEntero incrementum decrementum literalFraccion || |^ 
+<Aritmetica> ( literalEntero incrementum decrementum 
+<Nivel2> ( literalEntero incrementum decrementum 
+<Nivel1> ( literalEntero incrementum decrementum 
+<Nivel0> incrementum decrementum ( literalEntero 
+<ValorEntero> ( literalEntero 
+<OpBinaria2> + - 
+<OpBinaria1> * / % 
+<OpUnaria> incrementum decrementum 
+<AritmeticaFrac> ( literalFraccion || |^ 
+<Nivel2Frac> ( literalFraccion || |^ 
+<Nivel1Frac> ( literalFraccion || |^ 
+<Nivel0Frac> || |^ ( literalFraccion 
+<ValorFrac> ( literalFraccion 
+<OpBinaria2Frac> |+ |- 
+<OpBinaria1Frac> |* |/ 
+<OpUnariaFrac> || |^ 
 <Entrada> firmamentum 

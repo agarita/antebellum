@@ -1,7 +1,7 @@
 /*
  * Gramatica.h
  *
- * 2019/04/09 20:20:38
+ * 2019/04/28 22:34:32
  *
  * Archivo generado por GikGram 2.0
  *
@@ -15,7 +15,7 @@
 
 	/* Constantes necesarias para un driver de parsing */
 	#define TERMINAL(X)  ((0 <= (X)) && ((X) <= 123))
-	#define NO_TERMINAL(X)  ((124 <= (X)) && ((X) <= 201))
+	#define NO_TERMINAL(X)  ((124 <= (X)) && ((X) <= 227))
 	#define MARCA_DERECHA 123
 	#define NO_TERMINAL_INICIAL 124
 	#define MAX_LADO_DER 3
@@ -24,7 +24,7 @@
 	/* NO SE DETECTARON SÍMBOLOS SEMÁNTICOS EN LA GRAMÁTICA */
 
 	/* Prototipos de las tablas */
-	extern const int TablaParsing[78][NO_TERMINAL_INICIAL];
-	extern const int LadosDerechos[136][MAX_LADO_DER];
+	extern const int TablaParsing[104][NO_TERMINAL_INICIAL];
+	extern const int LadosDerechos[198][MAX_LADO_DER];
 
 #endif /* INC_Gramatica_h_ */
