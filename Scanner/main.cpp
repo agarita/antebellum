@@ -5,22 +5,21 @@
 
 bool TokenForNewLine(TokenType type);
 
-
-
 int main(int argc, char* argv[]) {
-    if (argc < 2)
+    if(argc<2)
         reportError(NotEnoughArguments);
 
 
-    Scanner mysca = Scanner(argv[1]);
+    Scanner *mysca=new Scanner(argv[1]);
     //
     // mysca.run();
-    mysca.Initiize();
+    mysca->Initiize();
 
     std::ofstream html;
     html.open(".//report.html");
     if (!html.is_open())
         reportError(CouldntOpenFile);
+
 
     //This inserts into header
     html << "<!DOCTYPE html><html><head></head><body style='background-color:#000000'>\n"
@@ -29,7 +28,7 @@ int main(int argc, char* argv[]) {
       "    <div class=\"col-8\">";
 
     std::unordered_map<TokenType ,int> frequencies;
-    Token actualToken = mysca.getToken();
+    Token actualToken = mysca->getToken();
     while (actualToken.type!=t_EOF){
 
         // This is to avoid blocking the file output
@@ -42,7 +41,7 @@ int main(int argc, char* argv[]) {
         }
 
 
-        actualToken=mysca.getToken();
+        actualToken=mysca->getToken();
     }
     html<< R"(</div><div class="col-4"><table class="table table-dark" ><tr><th>Familia</th><th>Frecuencia</th></tr>)";
 

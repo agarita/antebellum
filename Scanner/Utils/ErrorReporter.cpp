@@ -4,8 +4,11 @@
 
 #include <iostream>
 #include "ErrorReporter.h"
-void reportError(ErrorType type){
+void reportError(ErrorType type, void* atrib){
     switch (type){
+        case UnknownCharacter:
+            std::cout<<"[WARNING] Unknown Character ("<<*(int*)atrib<<")\n";
+            return;
         case NotEnoughArguments:
             std::cout<<"[ERROR] Not enough arguments passed to the program";
             exit(EXIT_FAILURE);

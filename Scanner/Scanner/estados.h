@@ -407,7 +407,6 @@ enum State{
     qm327,
     qm3276,
     qm32768,
-    qLT_Hash,
     qHash,
     qHash_Hash,
     qHash_GT,
@@ -425,7 +424,11 @@ enum State{
     qBCommHash,
     qPI,
     qPD,
-
+    qNumDec,
+    qNumHex,
+    qNumRom,
+    qNumHexMid,
+    qNumRomMid,
 
 
 

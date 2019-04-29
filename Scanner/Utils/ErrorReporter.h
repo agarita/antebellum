@@ -9,8 +9,9 @@ enum ErrorType{
             NotEnoughArguments,
             CouldntOpenFile,
             RollbackError,
-            InvalidToken
+            InvalidToken,
+            UnknownCharacter
 };
-void reportError(ErrorType type);
+void reportError(ErrorType type, void* atrib= nullptr);
 
 #endif //SCANNER_ERRORREPORTER_H

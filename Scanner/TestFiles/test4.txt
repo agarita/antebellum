@@ -1,4 +1,0 @@
-furibundus
-  edad sum numerus.
-  palabra sum catena.
-  quebrado sum fractio.
